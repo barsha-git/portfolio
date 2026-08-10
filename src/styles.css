@@ -397,6 +397,12 @@ p {
   gap: 24px;
 }
 
+.side-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .project-card {
   padding: 28px;
   border-radius: 28px;
