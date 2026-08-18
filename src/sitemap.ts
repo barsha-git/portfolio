@@ -10,8 +10,7 @@ export interface SitemapUrl {
   priority?: number;
 }
 
-const SITE_URL = process.env.VITE_SITE_URL || 'https://yourportfolio.com';
-
+const SITE_URL = "https://barshakhonju.com.np"; // Replace with your actual site URL
 // Define all pages in your portfolio
 const PAGES: SitemapUrl[] = [
   {

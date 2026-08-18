@@ -3,7 +3,7 @@
  * Defines crawling rules for search engines
  */
 
-const SITE_URL = process.env.VITE_SITE_URL || 'https://yourportfolio.com';
+const SITE_URL = "https://barshakhonju.com.np"; // Replace with your actual site URL
 
 export const generateRobots = (): string => {
   return `# Robots.txt for ${SITE_URL}
